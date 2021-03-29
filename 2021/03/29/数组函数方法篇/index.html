@@ -28,7 +28,7 @@
 <meta property="og:description" content="###数组更新响应式方法篇下面是一组源代码  以下方法都是响应式更改数组点击更改数组 让数组实现怒反转  倒序this.arry.reverse()点击更改数组 让数组实现正序排列this.arry.sort()点击更改数组 第一个为start开始位置 第二个为删除几个  第三个及后this.arry.splice(1,0,10,11)点击更改数组 从数组最后位置开始增添值 小括号内跟想要增添的值">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-03-29T13:27:38.564Z">
-<meta property="article:modified_time" content="2021-03-29T13:34:45.719Z">
+<meta property="article:modified_time" content="2021-03-29T13:39:24.204Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
@@ -409,8 +409,17 @@ height:50vh;
     <article class="article-entry">
         <p>###<p align="center"><font face="微软雅黑" color="skeblue" sizi='26' >数组更新响应式方法篇<p><br>下面是一组源代码</p>
 <blockquote>
-<p>以下方法都是响应式更改数组<br>点击更改数组 让数组实现怒反转  倒序<br>this.arry.reverse()<br>点击更改数组 让数组实现正序排列<br>this.arry.sort()<br>点击更改数组 第一个为start开始位置 第二个为删除几个  第三个及后<br>this.arry.splice(1,0,10,11)<br>点击更改数组 从数组最后位置开始增添值 小括号内跟想要增添的值<br>this.arry.push(‘tian’)<br>点击更改数组 从数组最后位置开始删除值 和Push相反 小括号为空<br>this.arry.pop()<br>点击更改数组 从数组第一个位置开始删除值  小括号为空<br>this.arry.shift()<br>点击更改数组 从数组第一个位置开始增添值  小括号为增添的值<br>this.arry.unshift(‘tom’)<br> 对数组使用 Math.max()<br>可以使用 Math.max.arry 来查找数组中的最高值：<br>实例<br>function myArrayMax(arr) {<br> return Math.max.apply(null, arr);<br>}<br>对数组使用 Math.min()<br>您可以使用 Math.min.apply 来查找数组中的最低值：<br>实例<br>function myArrayMin(arr) {<br>   return Math.min.apply(null, arr);<br>}<br> Min / Max JavaScript 方法<br>最快的解决方法是使用“自制”方法。</p>
+<p>以下方法都是响应式更改数组<br>点击更改数组 让数组实现怒反转  倒序<br>this.arry.reverse()<br>点击更改数组 让数组实现正序排列<br>this.arry.sort()<br>点击更改数组 第一个为start开始位置 第二个为删除几个  第三个及后<br>this.arry.splice(1,0,10,11)<br>点击更改数组 从数组最后位置开始增添值 小括号内跟想要增添的值<br>this.arry.push(‘tian’)<br>点击更改数组 从数组最后位置开始删除值 和Push相反 小括号为空<br>this.arry.pop()<br>点击更改数组 从数组第一个位置开始删除值  小括号为空<br>this.arry.shift()<br>点击更改数组 从数组第一个位置开始增添值  小括号为增添的值<br>this.arry.unshift(‘tom’)</p>
 </blockquote>
+<p>对数组使用 Math.max()<br>可以使用 Math.max.arry 来查找数组中的最高值：<br>实例</p>
+<blockquote>
+<p>function myArrayMax(arr) {<br> return Math.max.apply(null, arr);<br>}</p>
+</blockquote>
+<p>对数组使用 Math.min()<br>您可以使用 Math.min.apply 来查找数组中的最低值：</p>
+<blockquote>
+<p>实例<br>function myArrayMin(arr) {<br>   return Math.min.apply(null, arr);<br>}</p>
+</blockquote>
+<p> Min / Max JavaScript 方法<br>最快的解决方法是使用“自制”方法。</p>
 <p>此函数遍历数组，用找到的最高值与每个值进行比较：</p>
 <p> 实例（查找 Max）</p>
 <blockquote>
@@ -424,7 +433,7 @@ height:50vh;
             <p>原文作者：<a href="http://example.com">John Doe</a>
             <p>原文链接：<a href="http://example.com/2021/03/29/%E6%95%B0%E7%BB%84%E5%87%BD%E6%95%B0%E6%96%B9%E6%B3%95%E7%AF%87/">http://example.com/2021/03/29/%E6%95%B0%E7%BB%84%E5%87%BD%E6%95%B0%E6%96%B9%E6%B3%95%E7%AF%87/</a>
             <p>发表日期：<a href="http://example.com/2021/03/29/%E6%95%B0%E7%BB%84%E5%87%BD%E6%95%B0%E6%96%B9%E6%B3%95%E7%AF%87/">March 29th 2021, 9:27:38 pm</a>
-            <p>更新日期：<a href="http://example.com/2021/03/29/%E6%95%B0%E7%BB%84%E5%87%BD%E6%95%B0%E6%96%B9%E6%B3%95%E7%AF%87/">March 29th 2021, 9:34:45 pm</a>
+            <p>更新日期：<a href="http://example.com/2021/03/29/%E6%95%B0%E7%BB%84%E5%87%BD%E6%95%B0%E6%96%B9%E6%B3%95%E7%AF%87/">March 29th 2021, 9:39:24 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     
